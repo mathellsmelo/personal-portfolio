@@ -1,0 +1,182 @@
+.Projects-Container {
+    padding-top: 48px;   
+}
+
+.Projects-Layout {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-gap: 30px;
+    justify-items: center;
+}   
+
+.Projects-Title {
+    font-family: code;
+    color: MediumPurple;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.modal{
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+
+.close{
+    background-color: MediumPurple;
+    border-radius: 10%/30%;
+    border: 1px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0028 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: rgb(22, 0, 66);
+  border: 2px solid black;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+}
+figure.snip0028 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip0028 img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0028 figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+figure.snip0028 figcaption > div {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  bottom: 28px;
+  left: 100%;
+  padding: 7px 10px;
+  border-radius: 0 0 0 5px;
+  -webkit-transition: left 0.35s;
+  transition: left 0.35s;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip0028 figcaption > div i {
+  font-size: 23px;
+  padding: 6px;
+  color: #000000;
+  opacity: 0.6;
+  position: relative;
+  right: -150px;
+  -webkit-transition: right 0.35s, opacity 0.35s;
+  transition: right 0.35s, opacity 0.35s;
+}
+figure.snip0028 figcaption > div a {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+figure.snip0028 figcaption > div a:hover {
+  opacity: 1;
+}
+figure.snip0028 figcaption::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  background-image: linear-gradient(to top, #000000 0%, transparent 50%, #000000 100%);
+}
+figure.snip0028 h2 {
+  border-radius: 0 5px 0 0;
+  text-align: right;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  font-size: 1em;
+  bottom: 70px;
+  right: 100%;
+  width: 90%;
+  word-spacing: -0.1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: mediumpurple;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip0028 h2 span {
+  font-weight: 800;
+}
+figure.snip0028:hover img,
+figure.snip0028.hover img {
+  opacity: 0.7;
+}
+figure.snip0028:hover figcaption > div,
+figure.snip0028.hover figcaption > div {
+  left: 35%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip0028:hover figcaption h2,
+figure.snip0028.hover figcaption h2 {
+  right: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip0028:hover figcaption::before,
+figure.snip0028.hover figcaption::before {
+  opacity: 0.8;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip0028:hover figcaption i,
+figure.snip0028.hover figcaption i {
+  right: 0px;
+}
+figure.snip0028:hover a:first-child i,
+figure.snip0028.hover a:first-child i {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0028:hover a:nth-child(2) i,
+figure.snip0028.hover a:nth-child(2) i {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+figure.snip0028:hover a:nth-child(3) i,
+figure.snip0028.hover a:nth-child(3) i {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}

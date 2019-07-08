@@ -1,0 +1,8 @@
+.Social-Media {
+    background-color: transparent;
+}
+  
+.Social-Media-Button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

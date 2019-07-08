@@ -1,0 +1,104 @@
+.Main-Container {
+  color: #fff;
+  background: linear-gradient(250deg, rgb(164, 118, 255), rgb(20, 13, 119), rgb(21, 0, 48), MediumPurple);
+  background-size: 800% 800%;
+  -webkit-animation: Gradient 8s ease infinite;
+  -moz-animation: Gradient 8s ease infinite;
+  animation: Gradient 8s ease infinite;
+  position: relative;
+}
+
+.header {
+  padding: 20px;
+}
+
+.Lang-Position{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+  50% {
+  background-position: 100% 50%
+  }
+  100% {
+  background-position: 0% 50%
+  }
+}
+
+
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  width: 66px;
+  height: 66px;
+  color: rgb(100, 100, 100);
+  background-color: rgba(0,0,0,0);
+  border-radius: 10px;
+  margin-bottom: 5em;
+}
+
+
+.Home-Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh;
+    padding: 2em;
+}
+
+.Home-Title {
+    font-family: code;
+    color: rgb(207, 207, 207);
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+
+}
+  
+.Home-SubTitle {
+    font-family: codelight;
+    color: rgb(207, 207, 207);
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+    font-family: code;
+    src: url(../../fonts/Code-Bold.otf);
+    font-style: initial;
+}
+  
+@font-face {
+    font-family: codelight;
+    src: url(../../fonts/Code-Light.otf);
+    font-style: italic;
+}

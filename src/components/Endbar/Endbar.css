@@ -1,0 +1,18 @@
+.Endbar-Style {
+    display: flex;
+    flex-direction: column;
+    height: 56px;
+    align-items: center;
+    background-color: #e8ebea;
+    padding: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2rem;
+}
+
+.Endbar-Text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}

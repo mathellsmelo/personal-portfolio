@@ -1,0 +1,47 @@
+.AboutMe-Container {
+    background-color: #f4f7f6
+}
+
+.AboutMe-Center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2em;
+}
+
+.AboutMe-Title {
+    font-family: code;
+    color: MediumPurple;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 5rem;
+    text-align: start;
+}
+  
+.AboutMe-SubTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 50;
+    color: rgb(65, 65, 65);
+    text-align: start;
+    font-size:  1.1rem;
+    line-height: 35px;
+    margin: 10px;
+}
+
+.responsive-image {
+    margin-top: 5rem;
+    position: relative;
+    max-width: 100%;
+}
+  
+.responsive-image__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+}
