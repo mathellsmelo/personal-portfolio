@@ -129,6 +129,7 @@ class Contact extends Component {
                         required: {value: true, errorMessage: t('Input')},
                     }} />
                     <ReCAPTCHA
+                        sitekey="Your client site key"
                         ref={this._reCaptchaRef}
                         onChange={this.onChange.bind(this)}
                         style={{ display: "inline-block", marginTop: 12 }}
